@@ -4,6 +4,7 @@ math_score = [43,59,85,30,90]
 eng_score = [49,79,48,60,100] 
 midterm_score = [kor_score, math_score, eng_score]
 IDs = [201701, 201702, 201703, 201704, 201705]
+
 def findGrade(N):
 	if N >= 90:
 		return 'A'
