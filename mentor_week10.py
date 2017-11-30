@@ -16,9 +16,15 @@ for student in students:
 	mathtot += student["math"]
 	student["avg"] = student["total"]/3
 
+newlist = sorted(students, key=lambda k: k['total']) 
+#print(newlist)
+i=5
+for student in newlist:
 
-for student in students:
-	print(student)
+	student["order"] = i
+	i -=1
+
+print(newlist)
 
 classtotal /= 5 ; kortot /=5 ; engtot/=5; mathtot/=5
 print("총점의 반 평균: %.2f\n" % classtotal)
