@@ -1,0 +1,7 @@
+The square results are
+ 1  9 25 64 
+16 64 81 25 49 
+--------------------------------
+The sum of input data is 50
+--------------------------------
+The average of input data is 5.556
